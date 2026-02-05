@@ -106,11 +106,9 @@ Upon the initial launch, you may be prompted to select an existing connection fi
 
 ### Technical Support
 
-| **Resource**       | **Contact Information**                                                                       |
-| ------------------ | --------------------------------------------------------------------------------------------- |
-| **Email Support**  | shassan@hospitalitytechnology.com.mv                                                          |
-| **Support Portal** | [https://support.hospitalitytechnology.com.mv](https://support.hospitalitytechnology.com.mv/) |
+| Resource           | Contact Information                                                                          |
+| ------------------ | -------------------------------------------------------------------------------------------- |
+| **Email Support**  | shassan@hospitalitytechnology.com.mv                                                         |
+| **Support Portal** | [https://support.hospitalitytechnology.com.mv](https://support.hospitalitytechnology.com.mv) |
 
 ---
-
-<button-counter></button-counter>
