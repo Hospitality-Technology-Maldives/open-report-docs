@@ -42,7 +42,7 @@ Before installing workbooks, run the **Client Setup Utility** as an **Administra
 - **Network Authorization:** Configures Internet Options to allow for secure updates and file downloads.
 - **Security Bypass:** Eliminates recurring security warnings and macro blocks.
 
-:link: [Download Client Setup Installer](https://htmaldives.com/apps/report/client_setup.exe)
+:link: [Download Client Setup Installer](https://htmaldives.com/apps/setup_utility.exe)
 
 ---
 
