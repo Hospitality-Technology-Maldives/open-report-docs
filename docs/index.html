@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Open Report</title>
+    <meta name="theme-color" content="#3F51B5" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="description" content="Description" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, minimum-scale=1.0"
+    />
+    <!-- <link
+      rel="stylesheet"
+      href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css"
+    /> -->
+    <link
+      rel="stylesheet"
+      media="(prefers-color-scheme: dark)"
+      href="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-simple-dark.css"
+    />
+    <link
+      rel="stylesheet"
+      media="(prefers-color-scheme: light)"
+      href="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-simple.css"
+    />
+    <style>
+      :root {
+        --theme-hue: 700;
+      }
+
+      .app-name {
+        padding: 20px;
+      }
+
+      .app-name img {
+        height: 40px;
+        width: 80%;
+        object-fit: contain;
+      }
+    </style>
+  </head>
+  <body>
+    <nav>
+      <a href="http://htmaldives.com/" target="_blank">Support</a>
+    </nav>
+    <div id="app">Please wait...</div>
+    <script>
+      window.$docsify = {
+        name: "Open Report",
+        repo: "",
+        el: "#app",
+        loadNavbar: true,
+        logo: "/_media/logo.png",
+        nativeEmoji: true,
+        "flexible-alerts": {
+          style: "callout",
+        },
+        themeable: {
+          readyTransition: true, // default
+          responsiveTables: true, // default
+        },
+      };
+    </script>
+    <!-- Docsify v4 -->
+    <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
+    <script src="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/js/docsify-themeable.min.js"></script>
+    <script src="https://unpkg.com/docsify-plugin-flexible-alerts"></script>
+  </body>
+</html>
