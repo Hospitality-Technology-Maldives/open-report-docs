@@ -15,8 +15,8 @@
 > A Gateway to Opera Excel Reporting.
 
 - Simple and lightweight
-- No statically built html files
-- Multiple themes
+- Works with any Excel Version
+- In build Database Client
 
 <!-- [GitHub](https://github.com/docsifyjs/docsify/) -->
 
