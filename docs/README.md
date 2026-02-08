@@ -37,12 +37,23 @@ Open Reports is distributed as a secure Visual Studio Tools for Office (VSTO) cu
 
 Before installing workbooks, run the **Client Setup Utility** as an **Administrator**. This utility only needs to be executed once per machine to establish the following security policies:
 
-- **Certificate Installation:** Registers Hospitality Technology as a verified and trusted publisher.
+- **Certificate Installation:** Registers Hospitality Technology as a verified and trusted publisher. [Download Certificate](https://htmaldives.com/apps/apps.htmaldives.io.cer)
 - **Trusted Locations:** Authorizes Excel to execute the VSTO customization.
 - **Network Authorization:** Configures Internet Options to allow for secure updates and file downloads.
 - **Security Bypass:** Eliminates recurring security warnings and macro blocks.
 
 :link: [Download Client Setup Installer](https://htmaldives.com/apps/setup_utility.exe)
+
+> [!IMPORTANT]
+> **Installation Notice (Self-Signed Application)** <br>
+> This installer is signed using a self-signed certificate, so Windows may display a security prompt such as “Unknown Publisher” or warn that the file is not yet trusted. <br>
+> You may safely continue with the installation if you obtained this executable directly from our official distribution channel. <br> <br>
+> **Certificate Verification (Optional)** <br>
+> If you would like Windows to recognize the publisher and avoid future warnings, you can install our signing certificate into your system’s trusted certificate store before running the installer: <br>
+> Download certificate: [Certificate](https://htmaldives.com/apps/apps.htmaldives.io.cer) <br>
+> To trust the publisher, import the certificate into: <br>
+> Trusted Publishers (recommended) <br>
+> Trusted Root Certification Authorities (only if required by your organization’s security policy). If you are unsure, please consult your IT or security administrator before proceeding.
 
 ---
 
@@ -106,9 +117,14 @@ Upon the initial launch, you may be prompted to select an existing connection fi
 
 ### Technical Support
 
-| Resource           | Contact Information                                                                          |
-| ------------------ | -------------------------------------------------------------------------------------------- |
-| **Email Support**  | shassan@hospitalitytechnology.com.mv                                                         |
-| **Support Portal** | [https://support.hospitalitytechnology.com.mv](https://support.hospitalitytechnology.com.mv) |
-
+<table style="width:100%">
+   <tr>
+      <td> <strong>Email Support</strong> </td>
+      <td> <a href="mailto:shassan@hospitalitytechnology.com.mv"> shassan@hospitalitytechnology.com.mv </td>
+   </tr>
+   <tr>
+      <td> <strong> Support Portal</strong> </td>
+      <td> <a href="https://support.hospitalitytechnology.com.mv">https://support.hospitalitytechnology.com.mv</a> </td>
+   </tr>
+</table>
 ---
