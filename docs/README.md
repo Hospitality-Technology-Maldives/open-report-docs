@@ -96,6 +96,22 @@ If you are currently using an older version of the Open Reports tool, you must r
 
 ---
 
+### Installation & Setup
+
+After selecting the workbook you need from the list above, follow these steps to ensure the **Open Reports** customization installs correctly:
+
+1. **Download & Save:** Click the download link for your desired workbook and save it to a local folder (e.g., your Documents folder).
+2. **Unblock the File (Critical):** \* Right-click the downloaded `.xlsx` file and select **Properties**.
+
+- At the bottom of the **General** tab, look for the **Security** section.
+- Check the box labeled **Unblock** and click **OK**.
+- _Note: This is a Windows security requirement for files downloaded from the internet to allow the Excel customization to run._
+
+3. **Initial Launch:** Open the Excel file. Upon the first launch, the **VSTO Customization Installer** will automatically prompt you to install the Open Reports add-in. Click **Install**.
+4. **Automatic Updates:** You do not need to manually update your files. Every time you open the workbook, it will automatically check for the latest version and apply updates, ensuring you always have the newest features and fixes.
+
+---
+
 ### Connection Setup and Authentication
 
 #### Creating a New Connection
