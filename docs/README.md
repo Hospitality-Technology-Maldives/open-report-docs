@@ -55,6 +55,21 @@ Before installing workbooks, run the **Client Setup Utility** as an **Administra
 > Trusted Publishers (recommended) <br>
 > Trusted Root Certification Authorities (only if required by your organization’s security policy). If you are unsure, please consult your IT or security administrator before proceeding.
 
+> [!NOTE]
+> For Hotel using Active directory to manage internet Security Settings <br>
+> Please add `https://htmaldives.com` to trusted sites.
+
+---
+
+### Upgrading from a Previous Version
+
+If you are currently using an older version of the Open Reports tool, you must remove the existing Excel customization before installing the update.
+
+1. Open **Add or Remove Programs** (or **Apps & Features**) from the Windows Start menu.
+2. Locate the previous version of the Open Reports customization in the list.
+3. Select **Uninstall** to remove the old components from your system.
+4. Once the uninstallation is complete, any remaining old Excel files can be safely deleted.
+
 ---
 
 ### Available Reports
